@@ -3,12 +3,13 @@
 
 
 ---
+<h1>Green University of Bangladesh </h1>
 
-Dept. of Computer Science Engineering.
+<h2>Dept. of Computer Science Engineering</h2>
 
-Course Title: Digital Logic Design Lab
-Course Code: CSE-204
-Project: LPG Gass and Smoke Detection
+<p>Course Title: Digital Logic Design Lab</p>
+<p>Course Code: CSE-204</p>
+<p>Project: LPG Gass and Smoke Detection</p>
 
 ---
 
@@ -20,14 +21,13 @@ Project: LPG Gass and Smoke Detection
 
 
 
-Project in PDF
 ---
 
-<h1 id="test-title">Test title</h1>
-<p>Have some test text</p>
+<h1 id="test-title">Project in PDF</h1>
+
 <object data="loremipsum.pdf#page=2" type="application/pdf" width="700px" height="700px">
     <embed src="loremipsum.pdf#page=2">
-        <p>Referenced pages 2-3: <a href="DLD-Lab-Project.pdf">Download PDF</a>.</p>
+        <p>Click here for project report: <a href="DLD-Lab-Project.pdf">Download PDF</a>.</p>
     </embed>
 </object>
 
@@ -37,12 +37,29 @@ Project in PDF
 Project Video
 ---
 
-<object data="project.mp4#t=66,71" type="video/mp4">
-    <embed src="project.mp4#t=66,71">
-        <p>Referenced time: 66-71<a href="Gass_and_Smoke_Detection.mp4">Download mp4</a>.</p>
-    </embed>
-</object>
-
+<div class="embed-container">
+    <iframe width="640" height="390" 
+    src="https://www.youtube.com/embed/{{ yhmApqii0Po}}" 
+    frameborder="0" allowfullscreen></iframe>
+</div>
+<style>
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
 
 
 

@@ -37,12 +37,7 @@
 Project Video
 ---
 
-<div class="embed-container">
-    <iframe width="640" height="390" 
-    src="https://youtu.be/yhmApqii0Po" 
-    frameborder="0" allowfullscreen></iframe>
-</div>
-
+https://youtu.be/hxoz5JnBaHM
 
 
 
